@@ -1,0 +1,8 @@
+#!/bin/bash
+# geoip_lookup
+
+IPLIST=$(cat access_log | awk '{print $1}' | sort -ur | grep -v '^10.' | grep -v '^::' | tail -10)
+
+echo $IPLIST
+
+

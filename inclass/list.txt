@@ -1,0 +1,7 @@
+amount_of_time_alive.bash
+for_loop_fortune_mail.bash
+calc_coins.bash
+logfile_calc_coins.txt
+210
+amount_of_time_alive_dialog.bash
+mkmypage

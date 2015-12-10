@@ -1,0 +1,11 @@
+#!/bin/bash
+# cgolpashin1
+# Here doc
+
+bc << LABEL
+a=2
+b=8
+c=a^b
+c
+quit
+LABEL

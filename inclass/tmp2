@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "number " $#
+echo "file name " $0
+echo "exit" $7
+echo ""
+echo "arguments list" $*
+echo $1 $2 $3 $4 $5 $6 $7 $8 $9
+shift
+echo $1 $2 $3 $4 $5 $6 $7 $8 $9
+shift
+echo $1 $2 $3 $4 $5 $6 $7 $8 $9
+shift
+echo $1 $2 $3 $4 $5 $6 $7 $8 $9

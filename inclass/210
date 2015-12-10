@@ -1,0 +1,31 @@
+#!/bin/bash
+# 210
+# Chris Golpashin
+# index of previous work
+# cat each lab with a pause
+
+# list.txt is a list of your labs
+LLST=$(cat /home/cgolpashin1/inclass/list.txt)
+
+# change dir and exit if fail
+cd /home/cgolpashin1/inclass || exit
+
+# cat each file and wait for user ..
+for i in $LLST
+do
+clear
+ echo "$i"
+ cat "$i"
+read -r -p 'Press [Enter] Key to continue...'
+done
+
+# now show your data from the table in the coins.sqlite database
+cd sql || exit
+clear
+echo ".schema" | sqlite3 mycoins.sqlite
+read -r -p 'Press [Enter] Key to continue...'
+clear
+echo "select * from coins;" | sqlite3 mycoins.sqlite
+read -r -p 'Press [Enter] Key to finish...'
+clear
+
