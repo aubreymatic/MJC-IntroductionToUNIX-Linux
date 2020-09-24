@@ -1,2 +1,2 @@
 # MJC-IntroductionToUNIX-Linux
-These are files that I worked on in Modesto junior college.
+These are files that I worked on in Modesto junior college. Most of the files are just us trying to learn to code in BASH. For the most part basics of programming like loops, if else statements, and etc.
